@@ -1,0 +1,29 @@
+.exit{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #45538e;
+    font-family: 'Pangolin', cursive;
+}
+.back__page{
+    width: 13rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 1.25rem;
+    font-family: 'Pangolin', cursive;
+    margin-top: 0.75rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.back__page:active{
+    background-color: #bfddf8;
+    color: #45538e;
+}

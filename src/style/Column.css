@@ -1,0 +1,38 @@
+.column{
+    width: 20rem;
+    margin: 1rem 2.5rem auto 1rem;
+}
+.column__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.column__header{
+    letter-spacing: 0.5rem;
+    color: #45538e;
+    display: inline;
+}
+.column__buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.column__button{
+    height: 2rem;
+    width: 7rem;
+    outline: none;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+    border: none;
+    color: cornflowerblue;
+    font-weight: 500;
+    font-family: "Pangolin", cursive;
+    cursor: pointer;
+    margin-bottom: 0.5rem
+;
+}
+
+.column__button:active{
+    background-color: #45538e;
+    color: aliceblue;
+}

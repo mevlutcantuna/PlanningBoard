@@ -1,0 +1,99 @@
+h4 {
+  margin: 0 auto 0 auto;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  margin: 2rem auto auto 2rem;
+  font-family: "Pangolin", cursive;
+}
+
+.body__form {
+  position: absolute;
+  right: 0;
+  padding-right: 2rem;
+  border: 0;
+  display: none;
+  flex-direction: column;
+  width: 0;
+  background-color: purple;
+  opacity: 0;
+  z-index: 2;
+}
+
+.body__form__show {
+  width: 15rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 3rem;
+  background-color: white;
+  height: calc(100vh - 6rem);
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.body__form__show__input {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+  border: 2px solid #45538e;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  font-family: "Pangolin", cursive;
+}
+
+.body__form__show__submit {
+  height: 2rem;
+  width: 16.5rem;
+  outline: none;
+  letter-spacing: 0.1rem;
+  border-radius: 1rem;
+  border: none;
+  color: cornflowerblue;
+  font-weight: 500;
+  font-family: "Pangolin", cursive;
+  cursor: pointer;
+  display: block;
+  margin-top: 1rem;
+}
+
+.body__form__show__submit:active {
+  width: 16.5rem;
+  height: 2rem;
+  background-color: #45538e;
+  color: aliceblue;
+}
+
+.body__form__show select {
+  height: 2rem;
+  width: 16.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Pangolin", cursive;
+  letter-spacing: 0.3rem;
+  border-radius: 1rem;
+  outline: none;
+  border: 2px solid #293568;
+  padding-left: 1rem;
+}
+.body__form__card__content__input {
+  width: 15rem;
+  resize: none;
+  border-radius: 1rem;
+  outline: none;
+  border: 2px solid #293568;
+  font-family: "Pangolin", cursive;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+.first__option{
+  display: none;
+}

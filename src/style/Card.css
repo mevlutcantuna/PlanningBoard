@@ -1,0 +1,46 @@
+.card{
+    margin-bottom: 2rem;
+    font-family: "Pangolin", cursive;
+}
+.card__info{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+.card__info__left__header{
+    font-size: 1.1rem;
+    color: #1e5ede;
+    margin-bottom: 0.5rem;
+}
+.card__info__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__button{
+    height: 2rem;
+    width: 40%;
+    outline: none;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+    border: none;
+    color: cornflowerblue;
+    font-weight: 500;
+    font-family: "Pangolin", cursive;
+    cursor: pointer;
+}
+.card__button:active{
+    background-color: #45538e;
+    color: aliceblue;
+}
+.card__detail__in__card{
+    display: none;
+}

@@ -1,0 +1,30 @@
+.card__detail__main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+}
+
+.detail__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25vw;
+    height: 58vh;
+    background-color: #bfddf8;
+    color: #45538e ;
+    border-radius: 2rem;
+}
+
+.title{
+    padding-top: 1rem;
+    color: #293568;
+}
+
+.back__page{
+    position: absolute;
+    top: 1rem;
+}

@@ -1,0 +1,32 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 70vh;
+}
+h1{
+    font-family: "Pangolin", cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #1e5ede;
+}
+
+.board__button{
+    width: 25rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: #45538e;
+    font-size: 2rem;
+    font-family: "Pangolin", cursive;
+    cursor: pointer;
+}
+
+.board__button:hover{
+    background-color: #bfddf8;
+    color: #45538e;
+}
